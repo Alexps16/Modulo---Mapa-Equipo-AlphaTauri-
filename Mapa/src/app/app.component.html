@@ -1,8 +1,11 @@
 <h1>Prototipo de Mapa Lugar Especifico</h1>
-<google-map >
+<google-map [center]="position">
   <map-marker
   label="Mi ubicacion"
-  [title]="title"  ></map-marker>
+  [title]="title"
+  [position]="position"
+
+  ></map-marker>
 </google-map>
 
 

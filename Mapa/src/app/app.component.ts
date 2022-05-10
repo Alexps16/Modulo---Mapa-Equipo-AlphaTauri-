@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Mapa';
+  position = {lat: 19.510961, lng: -99.040527};
 }
