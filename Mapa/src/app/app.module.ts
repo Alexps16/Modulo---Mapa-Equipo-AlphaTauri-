@@ -4,10 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {GoogleMapsModule} from '@angular/google-maps';
+import { NombreComponent } from './nombre/nombre.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NombreComponent
   ],
   imports: [
     BrowserModule,
